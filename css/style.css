@@ -1,0 +1,90 @@
+* {
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Raleway";
+  font-weight: normal;
+}
+
+.square {
+  width: 30%;
+  background: orangered;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: background 0.6s;
+  -moz-transition: background 0.6s;
+  -webkit-transition: background 0.6s;
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  background: rgb(21, 137, 233);
+  margin: 0;
+  line-height: 1.1;
+  font-weight: inherit;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+h1::selection {
+  background-color: #fff;
+  color: rgb(21, 137, 233);
+}
+
+#colourDisplay {
+  font-size: 200%;
+}
+
+#colourDisplay::selection {
+  /* color: red; */
+  background-color: #fff;
+  color: rgb(21, 137, 233);
+}
+
+#stripe {
+  height: 30px;
+  background: #fff;
+  color: #232323;
+  text-align: center;
+}
+
+.selected {
+  color: #fff;
+  background: rgb(21, 137, 233);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: rgb(21, 137, 233);
+  letter-spacing: 1px;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+button:hover {
+  color: #fff;
+  background: rgb(21, 137, 233);
+}
+#message {
+  display: inline-block;
+  width: 20%;
+}
